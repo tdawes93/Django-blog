@@ -115,4 +115,12 @@
     </div>
 </div>
 
+<script>
+    setTimeout(function () {
+        let messagesSuccess = document.getElementById("msg-success");
+        let success = new bootstrap.Alert(messagesSuccess);
+        success.close();
+    }, 3000);
+</script>
+
 {% endblock content %}
